@@ -9,10 +9,10 @@ root.render(
     <Canvas
         flat
         camera={ {
-            fov: 75,
+            fov: 35,
             near: 0.1,
             far: 50,
-            position: [ 1, 2, 6 ]
+            position: [ 1, 1, 3 ]
         } }
     >
         <color args={ [ '0xff0000' ] } attach="background" />

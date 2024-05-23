@@ -12,7 +12,7 @@ root.render(
             fov: 75,
             near: 0.1,
             far: 50,
-            position: [ 1, 1, 3 ]
+            position: [ 1, 2, 4 ]
         } }
     >
         <color args={ [ '0xff0000' ] } attach="background" />

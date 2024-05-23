@@ -9,7 +9,7 @@ root.render(
     <Canvas
         flat
         camera={ {
-            fov: 35,
+            fov: 55,
             near: 0.1,
             far: 50,
             position: [ 1, 1, 3 ]

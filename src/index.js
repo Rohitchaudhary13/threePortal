@@ -14,8 +14,11 @@ root.render(
             far: 50,
             position: [ 1, 2, 4 ]
         } }
+        style={{ background: 'transparent' }} // Set background to transparent
+        onCreated={({ gl }) => {
+            gl.setClearColor(0x000000, 0); // Set clear color to black with alpha 0 for transparent background
+        }}
     >
-        <color args={ [ '0xff0000' ] } attach="background" />
         <Experience />
     </Canvas>
 )

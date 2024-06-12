@@ -11,7 +11,7 @@ export default function Experience()
 {
     return <>
 
-        <OrbitControls enableZoom={false} />
+        <OrbitControls enableZoom={false} enablePan={false} />
         <Center>
             <Sparkles
 		        size={ 6 }
